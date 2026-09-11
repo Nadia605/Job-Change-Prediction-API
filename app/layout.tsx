@@ -10,7 +10,7 @@ export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
   userScalable: true,
-  themeColor: '#1a1a1a',
+  themeColor: '#080b1b',
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="bg-[#1a1a1a]">
+    <html lang="en" className="bg-[#080b1b]">
       <body>{children}</body>
     </html>
   );
