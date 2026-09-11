@@ -1,0 +1,36 @@
+{
+  "name": "v0-project",
+  "version": "1.0.0",
+  "description": "This backend serves the final trained K-Nearest Neighbors (KNN) model directly from `ITI_Project_copy.ipynb` without altering any preprocessing order, scaling, or algorithm hyperparameters.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nadia605/Job-Change-Prediction-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Nadia605/Job-Change-Prediction-API/issues"
+  },
+  "homepage": "https://github.com/Nadia605/Job-Change-Prediction-API#readme",
+  "dependencies": {
+    "lucide-react": "^1.45.0",
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  }
+}
